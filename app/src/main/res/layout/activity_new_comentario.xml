@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewComentarioActivity">
+    <EditText
+        android:id="@+id/comentario_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peli / Anime"/>
+    <EditText
+        android:id="@+id/comentario_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo"/>
+
+    <EditText
+        android:id="@+id/comentario_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentario"
+        android:lines="15" />
+    <Button
+        android:id="@+id/addComentario"
+        android:text="Añadir Comentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
